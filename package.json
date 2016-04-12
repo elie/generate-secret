@@ -1,9 +1,11 @@
 {
-  "name": "node-secret",
+  "name": "generate-secret",
   "version": "0.1.0",
   "description": "Generate a secret key",
   "main": "index.js",
-  "bin": "./index",
+  "bin": {
+    "generate": "./index.js"
+  },
   "author": "Elie Schoppik",
   "repository": {
     "type": "git",
