@@ -1,6 +1,6 @@
-### Node Secret
+### Generate Secret
 
-A simple tool to add a key (default is 'SECRET') to a file (default is `.env`) using the crypto library's randomBytes function.
+A simple node tool to add a key (default is 'SECRET') to a file (default is `.env`) using the crypto library's randomBytes function.
 
 Install the module globally with `npm install -g generate-secret`
 

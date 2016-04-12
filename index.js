@@ -6,7 +6,7 @@ const fs = require("fs")
 const prompt = require('prompt');
 
 const addToken = (token) => {
-  if(process.argv.indexOf('--yes'.toLowerCase()) !== -1 || process.argv.indexOf('--yes'.toLowerCase()) !== -1){
+  if(process.argv.indexOf('--yes'.toLowerCase()) !== -1 || process.argv.indexOf('-y'.toLowerCase()) !== -1){
     fs.appendFile('.env', `SECRET=${token}\n`, 'utf8');
   }
   else {
