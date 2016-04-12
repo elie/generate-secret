@@ -1,10 +1,14 @@
 {
   "name": "node-secret",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Generate a secret key",
   "main": "index.js",
   "bin": "./index",
   "author": "Elie Schoppik",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:elie/node-secret.git"
+  },
   "license": "ISC",
   "dependencies": {
     "prompt": "^1.0.0"
